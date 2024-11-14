@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[24]:
-
-
 import numpy as np
 import time
 
@@ -25,6 +19,3 @@ for i in range(10000000):
 toc = time.time()
 print(c)
 print("Non Vectorized version time taken:",str(1000*(toc-tic))+"ms")
-
-    
-
